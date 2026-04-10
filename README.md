@@ -89,10 +89,10 @@ This isn't just a refactor — it's a **blueprint** for building maintainable, s
 Perfect for students, educators, and developers who want to master **clean architecture** and SOLID design.
 
 ---
-
-**Made with ❤️ for clean code & future-proof design**  
-**Created by: ** John Lian R. Nerecina
-**Github: ** JLNerecina
+   
+**Made with ❤️ for clean code & future-proof design**       
+**Created by:** John Lian R. Nerecina   
+**Github:** JLNerecina   
 
 ---
 
