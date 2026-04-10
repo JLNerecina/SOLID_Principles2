@@ -29,49 +29,7 @@ Currently, the `Student` object has methods like `borrowBook()`, `borrowJournal(
 
 ## 🧩 UML Class Diagram
 
-```mermaid
-classDiagram
-    direction TB
-    
-    class LibraryResource {
-        <<interface>>
-        +String getTitle()
-        +boolean isAvailable()
-        +void borrow()
-    }
-
-    class Book
-    class Thesis
-    class Capstone
-    class Journal
-    class Newspaper
-    class InternetAccess
-    class AudioBook
-
-    Book --|> LibraryResource
-    Thesis --|> LibraryResource
-    Capstone --|> LibraryResource
-    Journal --|> LibraryResource
-    Newspaper --|> LibraryResource
-    InternetAccess --|> LibraryResource
-    AudioBook --|> LibraryResource
-
-    class Student {
-        +void borrowResource(LibraryResource resource)
-    }
-
-    class Library {
-        -List~LibraryResource~ resources
-        +void addResource(LibraryResource r)
-        +LibraryResource findResourceByTitle(String title)
-    }
-
-    Student --> LibraryResource : depends on~abstraction~
-    Library o--> LibraryResource : manages many
-
-    style LibraryResource fill:#2196F3,stroke:#fff,stroke-width:3px,color:#fff
-    style Student fill:#4CAF50,stroke:#fff,stroke-width:2px
-```
+![image](https://github.com/JLNerecina/SOLID_Principles2/blob/main/NEU%20Library%20System%20-%20UML%20Class%20Diagram%20(SOLID%20Principle).png)
 
 ---
 
