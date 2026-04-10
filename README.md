@@ -90,7 +90,7 @@ Perfect for students, educators, and developers who want to master **clean archi
 
 ---
    
-**Made with ❤️ for clean code & future-proof design**       
+**Made with ❤️ for clean code & future-proof design**        
 **Created by:** John Lian R. Nerecina   
 **Github:** JLNerecina   
 
