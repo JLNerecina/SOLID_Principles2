@@ -139,5 +139,4 @@ Perfect for students, educators, and developers who want to master **clean archi
 ---
 
 *Star this repo if you love clean, extensible code! ⭐*
-```
 
