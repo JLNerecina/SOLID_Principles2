@@ -1,4 +1,3 @@
-```markdown
 # 🏛️ NEU Library Resource System  
 **SOLID-Powered • DIP-First • Future-Proof Refactoring**
 
